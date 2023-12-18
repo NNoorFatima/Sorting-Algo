@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+/*It works well with large datasets where the items are almost sorted because it takes only one iteration to detect whether the list is sorted or not.
+But if the list is unsorted to a large extend then this algorithm holds good for small datasets or lists.
+This algorithm is fastest on an extremely small or nearly sorted set of data.*/
 void bubblesort(int arr[],int size)
 {
 	for(int i=0 ;i<size ;i++)
