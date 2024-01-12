@@ -17,6 +17,6 @@ int binarySearch(int array[], int numelems, int value)
       first = middle + 1;
     // If value is in upper half
     }
-  return position;
+  return position;;
 }
 
